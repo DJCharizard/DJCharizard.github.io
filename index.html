@@ -1,23 +1,29 @@
 <!DOCTYPE html>
-<head>
-    <title>       Tetris Real-Time Counter
-        </title>
-        <link type="text/css" rel="stylesheet" href="index.css"/>
+<html>
+    <head>
+    <title>Animations!</title>
+    <link href = "animate.css" rel="stylesheet">
+    <style type = "text/css">
+        body{
+            background-color: hotpink;
+        }
+        .item {
+            
+            width: 900px;
+            height: 480px;
+            margin: 200px auto 0 auto;
+            -webkit-animation-duration: 1s;
+            -webkit-animation-delay: 2s;
+        }
+        .text {
+             margin: 0px auto 200px auto;
+            -webkit-animation-duration: 1s;
+            -webkit-animation-delay: 4s;
+        }
+    </style>
     </head>
-<body>
-<center>
-<script src="httpscode.jquery.comjquery-2.1.4.min.jsscript"></script>
-
-<script src="typeit/typeit.min.js"></script>
-
-<script>$('.title').typeIt({
-     whatToType: ["Welcome to my website.", "My name is Brandon A. Alvarez.", "I am a Funeral Director that enjoys spending time on the computer."],
-     typeSpeed: 50
-}); </script>
-	 <a href="https://www.twitch.tv/protomagicalgirl">
-		<img src="proto.png">
-	</a>
-	<h1> is bad at tetris </h1>
-</center>	
+    <body>
+    <div class = "item animated bounceInDown"><a href="twitch.tv/protomagicalgirl"><img src="proto.png"></a></div>
+    <div class = "text animated bounceInRight"><center><h1 style="color:white;">She's pretty good at tetris.</h1></center></div>
     </body>
 </html>
